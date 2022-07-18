@@ -1,0 +1,5 @@
+(library
+ (name mcs)
+ (libraries core core_unix lwt lwt.unix logs logs.lwt str)
+ (preprocess
+  (pps ppx_let)))
