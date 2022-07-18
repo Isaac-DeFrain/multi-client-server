@@ -1,7 +1,7 @@
 (test
- (name mcs)
+ (name test_mcs)
  (libraries
   ; external
   core
   ; internal
-  mcs))
+  lib_mcs))

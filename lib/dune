@@ -1,5 +1,5 @@
 (library
- (name mcs)
+ (name lib_mcs)
  (libraries core core_unix lwt lwt.unix logs logs.lwt str)
  (preprocess
   (pps ppx_let)))
